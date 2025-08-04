@@ -18,6 +18,7 @@ To begin training the teacher model, run:
 ```bash
 bash run_stage1.sh
 
+#### 1. **Stage 1: Train the Teacher Model**
 
 #### 2. **Stage 2: Train the Student Model using RAD**
 Once the teacher model is trained, define its checkpoint path in run_stage2.sh and then run:
