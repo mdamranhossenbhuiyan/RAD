@@ -6,22 +6,24 @@ This repository implements the RAD approach on top of the [RDE framework](https:
 
 ### 🔧 Setup & Environment
 
-Please refer to the [RDE repository](https://github.com/QinYang79/RDE) for detailed instructions on environment setup, required packages, and dataset preparation. Make sure the dataset directory is defined properly before training.
+Please refer to the [RDE repository](https://github.com/QinYang79/RDE) for detailed instructions on environment setup, required packages, and dataset preparation. Make sure the dataset directory is properly configured before training.
 
 ---
 
 ### 🏃‍♂️ How to Run
 
 #### 1. **Stage 1: Train the Teacher Model**
-To begin training the teacher model, run:
+
+To train the teacher model, run the following command:
 
 ```bash
 bash run_stage1.sh
-
-#### 1. **Stage 1: Train the Teacher Model**
+```
 
 #### 2. **Stage 2: Train the Student Model using RAD**
-Once the teacher model is trained, define its checkpoint path in run_stage2.sh and then run:
+
+After the teacher model is trained, specify the checkpoint path in `run_stage2.sh`, then execute:
 
 ```bash
 bash run_stage2.sh
+```
