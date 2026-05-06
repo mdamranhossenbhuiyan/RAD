@@ -17,9 +17,15 @@ detailed instructions on environment setup, required packages, and dataset
 preparation. Make sure the dataset directory is properly configured before 
 running any stage.
 
-Required models for agentic captioning:
+**Required models for agentic captioning:**
 - [LLaVA1.6-7B](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b)
 - [Qwen-VL-Chat-7B](https://huggingface.co/Qwen/Qwen-VL-Chat)
+
+**Datasets used for pretraining and evaluation:**
+- [SYNTH-PEDES](https://huggingface.co/datasets/ZuoJianning/PLIP) — 
+  used for large-scale pretraining (0.1M subset used in our experiments)
+- CUHK-PEDES, ICFG-PEDES, and RSTPReid — standard TIReID benchmarks, 
+  available via their respective original repositories
 
 ---
 
