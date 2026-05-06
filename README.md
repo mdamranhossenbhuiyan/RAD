@@ -1,5 +1,4 @@
-## From Reflection to Relation: Evaluating Agentic Captioning and 
-## Relation-Aware Distillation for Text-to-Image Person Re-Identification
+## From Reflection to Relation: Evaluating Agentic Captioning and Relation-Aware Distillation for Text-to-Image Person Re-Identification
 
 This repository provides the full implementation of our framework, which 
 consists of two main components: (1) an agentic caption refinement pipeline 
