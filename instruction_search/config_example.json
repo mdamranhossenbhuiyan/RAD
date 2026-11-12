@@ -1,0 +1,23 @@
+{
+  "work_dir": "work/instruction_search",
+  "image_root": "/path/to/SYNTH-PEDES/images",
+  "train_keys": "keys/train_100k.txt.gz",
+  "dev_keys": "keys/dev_1k.txt",
+  "model_id": "Qwen/Qwen2-VL-7B-Instruct",
+  "k": 8,
+  "initial": {
+    "captioner": "instructions/captioner_initial.txt",
+    "critic": "instructions/critic_initial.txt",
+    "refiner": "instructions/refiner_initial.txt"
+  },
+  "rounds": {"captioner": 10, "critic": 4, "refiner": 4},
+  "proposals": 8,
+  "dev_screen_max": 3,
+  "propose_attempts": 3,
+  "repair_attempts": 2,
+  "kernel_args": ["--batch", "8"],
+  "train_cmd": "bash /path/to/train_proxy.sh {captions} {run_dir}",
+  "test_cmd": "bash /path/to/test_proxy.sh {run_dir} {epoch} {out}",
+  "verifier_cmd": null,
+  "test_also": ["R00", "C1"]
+}

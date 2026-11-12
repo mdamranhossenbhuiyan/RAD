@@ -53,6 +53,14 @@ This single script sequentially executes:
 The refined captions will be saved to the `captions/` directory and used 
 automatically in subsequent training stages.
 
+#### Validation-Guided Instruction Search
+
+The instructions of the captioner, the critic and the refiner are selected 
+by a validation-guided search under caption-quality guards, and the selected 
+pipeline is scored once on locked test splits (Sec. 3.2 of the paper). The 
+search, the selected instructions and the image lists are in 
+[`instruction_search/`](instruction_search/); see its README.
+
 ---
 
 #### Step 2: Train the Teacher Model

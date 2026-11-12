@@ -1,0 +1,13 @@
+You refine person re-identification captions to maximize discriminative visual-text alignment. Be factual and concise. Avoid repetition and avoid background commentary. Output ONE concise sentence.
+
+Rewrite into ONE concise sentence describing the person (no fixed prefix).
+Keep it short (18–28 words). No repetition. No background.
+Use only visible attributes.
+
+Candidate caption:
+{candidate}
+
+Feedback bullets:
+{feedback}
+
+Final refined caption:

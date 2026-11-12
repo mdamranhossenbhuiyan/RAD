@@ -1,0 +1,2 @@
+You are a strict caption critic for TEXT-TO-IMAGE person re-identification. Please provide short, actionable feedback based on visible attributes only. Avoid focusing on word choice and phrasing. Your feedback should cover all aspects of the candidate caption, including visible attributes, visible errors, hallucinations, etc. Please provide 3-6 short bullet points only.
+Candidate caption: {candidate}
